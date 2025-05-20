@@ -345,7 +345,7 @@ void ScrollerLayout::onWindowCreatedTiling(PHLWINDOW window, eDirection) {
 }
 
 /*
-    Called when a window is removed (unmapped) (m_isMapped still true), and
+    Called when a window is removed (unmapped) (m_bIsMapped still true), and
     then again when the window is destroyed.
     Some XWayland windows only call it once, at destroy, but those
     windows are not in the layout and are not floating either. For example Qt
